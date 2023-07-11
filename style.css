@@ -1,0 +1,70 @@
+* {
+  font-family: "Carter One", cursive;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1440px;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: 0.3s;
+}
+.section-item a {
+  color: #829985;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.section-item a:hover {
+  color: #4d2323;
+}
+
+.section {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+.section-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #829985;
+}
+
+img {
+  width: 50%;
+}
+
+main .profile {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 150px;
+  gap: 150px;
+}
